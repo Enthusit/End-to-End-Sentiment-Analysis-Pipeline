@@ -20,7 +20,7 @@ req.py                  # It is used to send a POST request to analyse the revie
 
 README.md 
 
-Getting Started
+## Getting Started
 1.
 Prerequisites
 Python 3.8+
@@ -28,7 +28,7 @@ SQLite installed (pre-installed on most systems)
 
 pip install -r requirements.txt
 
-2Dataset
+## Dataset
 The IMDB dataset is used for this project. The dataset is downloaded from Kaggle in imdb1.py.
 Steps to Run the Project
 i. Data Setup
@@ -76,8 +76,7 @@ Run req.py to:
 Send a POST request to analyse the sentiment.
 
 
-3.
-Database Details
+## Database Details
 Database Name
               imdb_reviews.db
 Schema
@@ -89,8 +88,7 @@ CREATE TABLE IF NOT EXISTS reviews (
     sentiment TEXT NOT NULL
 );
 
-
-4.
+##
 Model Details
 Type: Logistic Regression
 Features: TF-IDF (Term Frequency-Inverse Document Frequency)
@@ -98,8 +96,7 @@ Training Accuracy: ~92%
 Test Accuracy: ~88%
 Evaluation Metrics:
 F1 Score, Precision, Recall available in model.py.
-
-5.
+##
 Requirements
 The dependencies are listed in requirements.txt. Install them with:
 
